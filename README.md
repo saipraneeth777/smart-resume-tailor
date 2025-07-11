@@ -1,6 +1,8 @@
-# Resume Tailoring Tool
+# Smart Resume Tailor
 
 A modern web application that optimizes LaTeX resumes for specific job descriptions using Google's Gemini API.
+
+🔗 **Live Demo:** [smart-resume-tailor.vercel.app](https://smart-resume-tailor.vercel.app)
 
 ## Features
 
@@ -34,8 +36,8 @@ A modern web application that optimizes LaTeX resumes for specific job descripti
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/resume-tailoring.git
-cd resume-tailoring
+git clone https://github.com/saipraneeth777/smart-resume-tailor.git
+cd smart-resume-tailor
 ```
 
 2. Install dependencies:

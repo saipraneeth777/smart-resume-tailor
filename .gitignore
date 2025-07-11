@@ -99,6 +99,7 @@ config.local.json
 .cursor/
 .aider/
 .copilot/
+CLAUDE.md
 
 # Next.js
 /.next/

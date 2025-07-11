@@ -1,0 +1,109 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Next.js
+/.next/
+/out/
+
+# Production
+/build
+/dist
+
+# Misc
+*.tsbuildinfo
+next-env.d.ts
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+lerna-debug.log*
+
+# Environment variables - ALL OF THEM
+.env
+.env*
+.env.local
+.env.development
+.env.staging
+.env.production
+.env.example
+*.env*
+
+# API Keys and Secrets
+*.key
+*.secret
+*.pem
+*.p12
+*.pfx
+*secret*
+*password*
+*token*
+api-keys.json
+secrets.json
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+
+# IDE
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+/scripts/check-gemini-models.js.bak
+/scripts/test-api.js.bak
+dev-server.log
+*.bak
+*.tmp
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Uploads
+uploads/
+temp/
+
+# Config files that might contain secrets
+config.json
+config.local.json
+*.config.local.*
+
+
+
+# AI Tools & Development
+.claude/
+.cursor/
+.aider/
+.copilot/
+
+# Next.js
+/.next/
+/out/
+
+# IDE
+.vscode/
+.idea/

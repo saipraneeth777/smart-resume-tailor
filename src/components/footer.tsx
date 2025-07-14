@@ -1,7 +1,18 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Heart } from 'lucide-react';
+
+// Custom Heart icon component
+const HeartIcon = ({ className }: { className?: string }) => (
+  <svg
+    className={className}
+    viewBox="0 0 24 24"
+    fill="currentColor"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+  </svg>
+);
 
 // Custom GitHub icon component
 const GitHubIcon = ({ className }: { className?: string }) => (
@@ -31,7 +42,7 @@ export function Footer() {
           {/* Left side - Built by */}
           <div className="flex items-center gap-2 text-white/80">
             <span className="text-sm font-medium">Built with</span>
-            <Heart className="w-4 h-4 text-pink-400 fill-pink-400" />
+            <HeartIcon className="w-4 h-4 text-pink-400" />
             <span className="text-sm font-medium">by</span>
             <span className="text-sm font-semibold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
               Sai Praneeth
